@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://genfavicon.com/tmp/icon_38956a92956e5016d63ee1d11772a38b.ico"
+    />
+    <title>PaintJS</title>
+  </head>
+  <body>
+    <header><h1>YeJinii's JS Canvas</h1></header>
+    <canvas id="jsCanvas" class="canvas"></canvas>
+    <div class="controls">
+      <div class="controls__range">
+        <input
+          type="range"
+          id="jsRange"
+          min="0.1"
+          max="5.0"
+          value="2.5"
+          step="0.1"
+        />
+      </div>
+      <div class="controls__btns">
+        <button id="jsMode">
+          <span id="jsModeText">FILL</span><i class="fa-solid fa-fill-drip"></i>
+        </button>
+        <button id="jsSave">
+          <span>SAVE</span><i class="fa-solid fa-floppy-disk"></i>
+        </button>
+      </div>
+      <div class="controls__colors" id="jsColors">
+        <div
+          class="controls__color jsColor"
+          style="background-color: #ff3333"
+        ></div>
+        <div
+          class="controls__color jsColor"
+          style="background-color: rgb(255, 130, 47)"
+        ></div>
+        <div
+          class="controls__color jsColor"
+          style="background-color: #ffd050"
+        ></div>
+        <div
+          class="controls__color jsColor"
+          style="background-color: #6db85e"
+        ></div>
+        <div
+          class="controls__color jsColor"
+          style="background-color: #458cad"
+        ></div>
+        <div
+          class="controls__color jsColor"
+          style="background-color: #45469c"
+        ></div>
+        <div
+          class="controls__color jsColor"
+          style="background-color: #c568a9"
+        ></div>
+        <div
+          class="controls__color jsColor"
+          style="background-color: #ffffff"
+        ></div>
+        <div
+          class="controls__color jsColor"
+          style="background-color: #2c2c2c"
+        ></div>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/5ad056149c.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js"></script>
+  </body>
+</html>
